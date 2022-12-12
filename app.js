@@ -15,8 +15,9 @@ $formSearch.on('submit', async (e) => {
 });
 
 $btn_remove.on('click', () => {
+    $searchTerm.val("");
     $giphyCard.empty().clear();
-     $searchTerm.val("");
+     
 });
 
 async function searchImageByTerm(term) {
