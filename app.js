@@ -36,7 +36,7 @@ async function searchImageByTerm(term) {
 }
 function addImage(imgUrl) {
 
-    let $divCol = $("<div>", { class: "col" });
+    let $divCol = $("<div>", { class: "col-md-4" });
     let $divCard = $("<div>", { class: "card" });
     let $divCardBody = $("<div>", { class: "card-body" });
     let $img = $("<img>", { src: imgUrl, class: "card-img-bottom" });
