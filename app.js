@@ -1,5 +1,5 @@
 const apiKey = "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym";
-const BASE_URL = "//api.giphy.com/v1/gifs/search";
+const BASE_URL = "http://api.giphy.com/v1/gifs/search";
 const $formSearch = $('#formSearch');
 const $btn_remove = $('#btn-remove');
 const $searchTerm = $('#searchTerm');
