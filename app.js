@@ -12,11 +12,11 @@ $formSearch.on('submit', async (e) => {
         api_key: apiKey,
     }
     await searchImageByTerm(term);
-    //$searchTerm.val("");
 });
 
 $btn_remove.on('click', () => {
     $giphyCard.empty().clear();
+     $searchTerm.val("");
 });
 
 async function searchImageByTerm(term) {
